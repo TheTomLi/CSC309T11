@@ -3,7 +3,7 @@ const routes = require("./routes");
 require('dotenv').config();
 const cors = require('cors');
 
-const FRONTEND_URL = process.env.FRONTEND_URL || "https://extraordinary-heart-production.up.railway.app/";
+const FRONTEND_URL = process.env.FRONTEND_URL || "https://extraordinary-heart-production.up.railway.app";
 const app = express();
 app.use(express.json());
 app.use(cors({
